@@ -1,0 +1,7 @@
+<h2>I like guitars</h2>
+
+<ul>
+  <% @guitars.each do |guitar| %>
+    <li><%= guitar[:name] %></li>
+  <% end %>
+</ul>
